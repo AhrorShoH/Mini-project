@@ -1,0 +1,14 @@
+.main{
+    margin: 20px ;
+    padding: 30px;
+}
+.btns{
+    color: black;
+    background-color: rgb(2, 255, 2);
+    border-radius: 25px;
+    margin-left: 5px;
+    border: 2px solid black;
+}
+h3{
+    color: red;
+}
