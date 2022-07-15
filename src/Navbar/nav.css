@@ -1,0 +1,64 @@
+.nav {
+    width: 7cm;
+    background-color: gray; 
+    padding-top: 10px;
+    padding-bottom: 10px; 
+    text-align: center; 
+}
+#myphoto {
+    width: 200px;
+    border-radius: 100px;
+}
+.navbar {
+    list-style-type: none;
+    width: 5cm;
+    
+}
+
+#home {
+    font-weight: 700;
+    font-size: 20pt;
+}
+#home:hover {
+    color: gainsboro;
+    cursor: pointer;
+}
+
+#timer {
+    font-weight: 700;
+    font-size: 16pt;    
+}
+#timer:hover {
+    color: gainsboro;
+    cursor: pointer;   
+}
+
+#counter {
+    font-weight: 700;
+    font-size: 16pt;    
+}
+#counter:hover {
+    color: gainsboro;
+    cursor: pointer;  
+}
+
+#calculator {
+    font-weight: 700;
+    font-size: 16pt;    
+}
+#calculator:hover {
+    color: gainsboro;
+    cursor: pointer;  
+}
+#contact {
+    font-weight: 700;
+    font-size: 18pt;    
+}
+#contact:hover {
+    color: gainsboro;
+    cursor: pointer;  
+}
+#hr {
+    margin-bottom: 14px;
+}
+

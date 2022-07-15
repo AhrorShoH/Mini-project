@@ -1,26 +1,25 @@
 import React from "react";
-import Timer from "./components/Timer";
+import Main from "./components/Main";
 import Counter from "./components/Counter";
-import State from "./components/State";
+import Timer from "./components/Timer";
 import Calculator from "./components/Calculator";
-import Time from "./components/Time";
-import "./App.css";
+import Nav from "./Navbar/Navbar";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {
   return (
-    <div className="App">
-      <Timer />
-      <hr />
-      <Counter />
-      <hr />
-      <State />
-      <hr />
-      <h3><i>(This is Calculator)</i></h3>
-      <Calculator />
-      <hr />
-      <Time />
-      <hr />
-    </div>
+    <BrowserRouter>
+      <div className="App">
+        <Nav />
+        <Routes>
+          <Route index path="/" element={<Main/>} />
+          <Route index path="/timer" element={<Timer/>} />
+          <Route index path="/counter" element={<Counter/>} />
+          <Route index path="/calculator" element={<Calculator/>} />
+        </Routes>
+        
+      </div>
+    </BrowserRouter>
   );
 }
 
