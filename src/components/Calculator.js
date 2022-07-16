@@ -18,26 +18,26 @@ function Calculator(){
     })
     return(
        <div className="wrapper">
-           <div className="show-input"><h2>Result: {data}</h2></div>
+           <div className="show-input"><h2>{data}</h2></div>
            <div className="modifiers grid">
-               <button onClick={() => setData(data.substr(0, data.length - 1))}>
-                   Clear
+               <button id="clear" onClick={() => setData(data.substr(0, data.length - 1))}>
+                   C
                </button>
-               <button onClick={() => setData("")}>
+               <button id="aclear" onClick={() => setData("")}>
                    AC
-               </button>
-               <button id="operations" onClick={e => setData(data + e.target.value)} value="+">
+               </button> <br/>
+               <button id="operations1" onClick={e => setData(data + e.target.value)} value="+">
                    +
-               </button>
-               <button id="operations" onClick={e => setData(data + e.target.value)} value="-">
+               </button> <br/>
+               <button id="operations2" onClick={e => setData(data + e.target.value)} value="-">
                    -
-               </button>
-               <button id="operations" onClick={e => setData(data + e.target.value)} value="*">
+               </button> <br/>
+               <button id="operations3" onClick={e => setData(data + e.target.value)} value="*">
                    *
-               </button>
-               <button id="operations" onClick={e => setData(data + e.target.value)} value="/">
+               </button> <br/>
+               <button id="operations4" onClick={e => setData(data + e.target.value)} value="/">
                    /
-               </button>
+               </button> <br/>
                <button id="equal" onClick={e =>{
                    try{
                        setData(
@@ -54,11 +54,9 @@ function Calculator(){
                 value = "=">
                    =
                </button>
-           </div>
-           
+           </div>           
            <div className="digits flex">{calcBtns}</div> 
-
-       </div>
+        </div>
     );
 }
 

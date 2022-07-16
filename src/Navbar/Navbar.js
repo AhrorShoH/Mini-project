@@ -2,7 +2,7 @@ import React from "react";
 import "./nav.css";
 import { Nav, NavItem } from "reactstrap";
 import { IoHome } from "react-icons/io5";
-import { RiTimerFlashFill } from "react-icons/ri";
+import { BsGithub, BsLinkedin, BsFacebook, BsTelegram } from "react-icons/bs";
 import { FaSortNumericUpAlt, FaCalculator } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import Photo from "../pictures/myphoto.jpg";
@@ -21,13 +21,6 @@ function Navbar() {
                   </Link>
                 </NavItem>
                 <NavItem>
-                  <Link to="/timer" id="timer">
-                    <RiTimerFlashFill/> <br/>
-                    Timer
-                    <hr/>
-                  </Link>
-                </NavItem>
-                <NavItem>
                     <Link id="counter" to="/counter">
                     <FaSortNumericUpAlt/> <br/>
                       Counter
@@ -41,12 +34,21 @@ function Navbar() {
                       <hr id="hr"/>
                     </Link>
                 </NavItem>
-                <NavItem>
-                    <Link id="contact" to="/about">
-                      Contact
-                    </Link>
-                </NavItem>
           </Nav>
+          <div className="contact">
+            <a href="https://github.com/ahrorbek-umrzoqov" target="blank">
+            <BsGithub id="github"/>
+            </a>
+            <a href="https://linkedin.com/in/umirzakoff-shax" target="blank">
+            <BsLinkedin id="linkedin"/>
+            </a>
+            <a href="https://facebook.com/Umirzakoff.Shax" target="blank">
+            <BsFacebook id="facebook"/>
+            </a>
+            <a href="https:/t.me/Umirzakoff_ShaX" target="blank">
+            <BsTelegram id="telegram"/>
+            </a>
+          </div>
         </div>
     </div>
   );

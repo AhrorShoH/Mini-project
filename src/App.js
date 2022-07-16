@@ -1,8 +1,7 @@
 import React from "react";
-import Main from "./components/Main";
 import Counter from "./components/Counter";
 import Timer from "./components/Timer";
-import Calculator from "./components/Calculator";
+import Calculator from "./components/Calculator"; 
 import Nav from "./Navbar/Navbar";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
@@ -12,8 +11,7 @@ function App() {
       <div className="App">
         <Nav />
         <Routes>
-          <Route index path="/" element={<Main/>} />
-          <Route index path="/timer" element={<Timer/>} />
+          <Route index path="/" element={<Timer/>} />
           <Route index path="/counter" element={<Counter/>} />
           <Route index path="/calculator" element={<Calculator/>} />
         </Routes>

@@ -1,4 +1,4 @@
-.timer {
+.count {
     margin-left: 10cm;
     margin-top: 3cm;
     background-color: silver;
@@ -8,71 +8,59 @@
     padding-left: 7cm;
     height: 50%;
 }
-#text {
-    color:brown;
-    font-size: 25pt;
-    position: absolute;
-    margin-top: -1.3cm;
-    margin-left: -35px;
-}
-
-h3{
-    margin-top: -3cm;
-    margin-right: 3cm;
-    color: black;
-    font-size: 20pt;
-    text-align: right;
-}
-h4{
-    margin-top: 1cm;
-    margin-right: 3.2cm;
-    color: black;
-    font-size: 20pt;
-    text-align: right;
-}
-.buttons {
+.btns {
+    width: 1cm;
     color: silver;
     background-color: black;
     margin-left: 15px;
     border-radius: 10px;
     margin-bottom: 10px;
 }
-.buttons:hover {
+.btns:hover {
     color: white;
     background-color: black;
 }
-
-.buttons3 {
+.btns3 {
     color: silver;
     background-color: black;
-    margin-left: -10px;
+    margin-left: 10px;
     border-radius: 10px;
     margin-bottom: 10px;
 }
-.buttons3:hover {
+.btns3:hover {
     color: white;
     background-color: black;
 }
-
-.buttons4 {
-    color: silver;
-    background-color: black;
-    margin-left: 5px;
-    border-radius: 10px;
-    margin-bottom: 10px;
+#count {
+    color:brown;
+    font-size: 25pt;
+    position: absolute;
+    margin-top: -1.3cm;
+    margin-left: -50px;
 }
-.buttons4:hover {
-    color: white;
-    background-color: black;
-}
-
-#numbers {
+#count-number {
     border: 1px solid black;
     border-radius: 15px;
     width: 3cm;
+    padding-top: 0.5cm;
+    padding-bottom: 0.5cm;
     text-align: center;
     margin-top: 2cm;
     margin-bottom: 15px;
     background-color: indigo;
     color: white;
+}
+#count-skill{
+    margin-top: -4.3cm;
+    margin-right: 3cm;
+    color: black;
+    font-size: 20pt;
+    text-align: right;
+}
+#count-tool{
+    margin-top: cm;
+    margin-right: 3.2cm;
+    color: black;
+    font-size: 20pt;
+    text-align: right;
 }
