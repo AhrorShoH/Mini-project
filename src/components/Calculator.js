@@ -18,7 +18,8 @@ function Calculator(){
     })
     return(
        <div className="wrapper">
-           <div className="show-input"><h2>{data}</h2></div>
+           <h2 id='calc'>Counter up stats</h2>
+           <div className="show-input"><h2 id="input">{data}</h2></div>
            <div className="modifiers grid">
                <button id="clear" onClick={() => setData(data.substr(0, data.length - 1))}>
                    C
@@ -56,6 +57,8 @@ function Calculator(){
                </button>
            </div>           
            <div className="digits flex">{calcBtns}</div> 
+           <h3 id='calc-skill'>Skills: JavaScript, React.js</h3>
+           <h4 id='calc-tool'>Tools: VS Code, Git Bash</h4>
         </div>
     );
 }
