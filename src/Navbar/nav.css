@@ -12,9 +12,6 @@
 }
  
 #myphoto:hover {
-    margin-left: 25px;
-    width: 200px;
-    border-radius: 100px;
     opacity: 0.5;
 }
 .navbar {
@@ -110,4 +107,392 @@ hr {
 #telegram:hover {
     color: black;
     opacity: 0.5;
+}
+
+@media only screen and (min-width: 500px) and (max-width: 768px){
+    .nav {   
+        padding-top: 10px;
+        padding-bottom: 5px;
+        text-decoration: none !important;
+        text-align: left;
+        height: auto;
+    }
+    #myphoto {
+        margin-left: 15px;
+        width: 150px;
+        border-radius: 100px;
+    }
+     
+    .navbar {
+        list-style-type: none;
+        width: 5cm;
+        text-decoration: none;
+        
+    }
+    
+    #home {
+        font-weight: 700;
+        font-size: 1.5rem;
+        text-decoration: none;
+        color: indigo;
+        margin-left: 25px;
+    }
+
+    #counter {
+        font-weight: 700;
+        font-size: 1.2rem; 
+        text-decoration: none;   
+        color: indigo;
+        margin-left: 25px;
+    }
+
+    #calculator {
+        font-weight: 700;
+        font-size: 1.2rem;    
+        text-decoration: none;
+        color: indigo;
+        margin-left: 25px;
+        padding-left: 5px;
+    }
+
+    hr {
+        color: gainsboro;
+        cursor: default;
+        margin-left: -30px;
+        margin-right: 75px;
+    }
+    #github {
+        margin-left: 20px;
+        margin-top: 7cm;
+        font-size: 1.5rem;
+        color: indigo;
+    }
+
+    #linkedin {
+        font-size: 1.5rem;
+        margin-left: 10px;
+        color: indigo;
+    }
+    
+    #facebook {
+        font-size: 1.5rem;
+        margin-left: 10px;
+        color: indigo;
+    }
+    
+    #telegram {
+        font-size: 1.5rem;
+        margin-left: 10px;
+        color: indigo;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+    .nav {   
+        padding-top: 10px;
+        padding-bottom: 5px;
+        text-decoration: none !important;
+        text-align: left;
+        height: auto;
+    }
+    #myphoto {
+        margin-left: 15px;
+        width: 170px;
+        border-radius: 100px;
+    }
+     
+    .navbar {
+        list-style-type: none;
+        width: 5cm;
+        text-decoration: none;
+        
+    }
+    
+    #home {
+        font-weight: 700;
+        font-size: 1.5rem;
+        text-decoration: none;
+        color: indigo;
+        margin-left: 25px;
+    }
+
+    #counter {
+        font-weight: 700;
+        font-size: 1.2rem; 
+        text-decoration: none;   
+        color: indigo;
+        margin-left: 25px;
+    }
+
+    #calculator {
+        font-weight: 700;
+        font-size: 1.2rem;    
+        text-decoration: none;
+        color: indigo;
+        margin-left: 25px;
+        padding-left: 5px;
+    }
+
+    hr {
+        color: gainsboro;
+        cursor: default;
+        margin-left: -30px;
+        margin-right: 75px;
+    }
+    #github {
+        margin-left: 20px;
+        margin-top: 7cm;
+        font-size: 1.5rem;
+        color: indigo;
+    }
+
+    #linkedin {
+        font-size: 1.5rem;
+        margin-left: 10px;
+        color: indigo;
+    }
+    
+    #facebook {
+        font-size: 1.5rem;
+        margin-left: 10px;
+        color: indigo;
+    }
+    
+    #telegram {
+        font-size: 1.5rem;
+        margin-left: 10px;
+        color: indigo;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .nav {
+        position: fixed;    
+        padding-top: 10px;
+        padding-bottom: 5px;
+        text-decoration: none !important;
+        text-align: center;
+    }
+    #myphoto {
+        margin-left: 25px;
+        width: 200px;
+        border-radius: 100px;
+    }
+     
+    #myphoto:hover {
+        margin-left: 25px;
+        width: 200px;
+        border-radius: 100px;
+        opacity: 0.5;
+    }
+    .navbar {
+        list-style-type: none;
+        width: 5cm;
+        text-decoration: none;
+        
+    }
+    
+    #home {
+        font-weight: 700;
+        font-size: 20pt;
+        text-decoration: none;
+        color: indigo;
+    }
+    #home:hover {
+        color: black;
+        opacity: 0.5;
+    }
+    
+    #timer {
+        font-weight: 700;
+        font-size: 18pt; 
+        text-decoration: none;  
+        color: indigo; 
+    }
+    #timer:hover {
+        color: black;
+        opacity: 0.5;  
+    }
+    
+    #counter {
+        font-weight: 700;
+        font-size: 18pt; 
+        text-decoration: none;   
+        color: indigo;
+    }
+    #counter:hover {
+        color: black;
+        opacity: 0.5; 
+    }
+    
+    #calculator {
+        font-weight: 700;
+        font-size: 18pt;    
+        text-decoration: none;
+        color: indigo;
+    }
+    #calculator:hover {
+        color: black;
+        opacity: 0.5;  
+    }
+    hr {
+        color: gainsboro;
+        cursor: default;
+    }
+    #github {
+        margin-left: 1cm;
+        margin-top: 9cm;
+        font-size: 41px;
+        color: indigo;
+    }
+    #github:hover {
+        color: black;
+        opacity: 0.5;
+    }
+    
+    #linkedin {
+        font-size: 41px;
+        margin-left: 10px;
+        color: indigo;
+    }
+    #linkedin:hover {
+        color: black;
+        opacity: 0.5;
+    }
+    
+    #facebook {
+        font-size: 41px;
+        margin-left: 10px;
+        color: indigo;
+    }
+    #facebook:hover {
+        color: black;
+        opacity: 0.5;
+    }
+    
+    #telegram {
+        font-size: 41px;
+        margin-left: 10px;
+        color: indigo;
+    }
+    #telegram:hover {
+        color: black;
+        opacity: 0.5;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .nav {
+        position: fixed;    
+        padding-top: 10px;
+        padding-bottom: 5px;
+        text-decoration: none !important;
+        text-align: center;
+    }
+    #myphoto {
+        margin-left: 25px;
+        width: 200px;
+        border-radius: 100px;
+    }
+     
+    #myphoto:hover {
+        margin-left: 25px;
+        width: 200px;
+        border-radius: 100px;
+        opacity: 0.5;
+    }
+    .navbar {
+        list-style-type: none;
+        width: 5cm;
+        text-decoration: none;
+        
+    }
+    
+    #home {
+        font-weight: 700;
+        font-size: 20pt;
+        text-decoration: none;
+        color: indigo;
+    }
+    #home:hover {
+        color: black;
+        opacity: 0.5;
+    }
+    
+    #timer {
+        font-weight: 700;
+        font-size: 16pt; 
+        text-decoration: none;  
+        color: indigo; 
+    }
+    #timer:hover {
+        color: black;
+        opacity: 0.5;  
+    }
+    
+    #counter {
+        font-weight: 700;
+        font-size: 16pt; 
+        text-decoration: none;   
+        color: indigo;
+    }
+    #counter:hover {
+        color: black;
+        opacity: 0.5; 
+    }
+    
+    #calculator {
+        font-weight: 700;
+        font-size: 16pt;    
+        text-decoration: none;
+        color: indigo;
+    }
+    #calculator:hover {
+        color: black;
+        opacity: 0.5;  
+    }
+    hr {
+        color: gainsboro;
+        cursor: default;
+    }
+    #github {
+        margin-left: 1cm;
+        margin-top: 9cm;
+        font-size: 41px;
+        color: indigo;
+    }
+    #github:hover {
+        color: black;
+        opacity: 0.5;
+    }
+    
+    #linkedin {
+        font-size: 41px;
+        margin-left: 10px;
+        color: indigo;
+    }
+    #linkedin:hover {
+        color: black;
+        opacity: 0.5;
+    }
+    
+    #facebook {
+        font-size: 41px;
+        margin-left: 10px;
+        color: indigo;
+    }
+    #facebook:hover {
+        color: black;
+        opacity: 0.5;
+    }
+    
+    #telegram {
+        font-size: 41px;
+        margin-left: 10px;
+        color: indigo;
+    }
+    #telegram:hover {
+        color: black;
+        opacity: 0.5;
+    }
 }

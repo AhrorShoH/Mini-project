@@ -2,7 +2,9 @@
     margin-left: 10cm;
     margin-top: 3cm;
     background-color: silver;
-    text-align: left;
+    text-align: left;    
+    border-bottom-left-radius: 50px;
+    border-top-right-radius: 50px;
     position: fixed;
     width: 53%;
     padding-left: 7cm;
@@ -75,4 +77,83 @@ h4{
     margin-bottom: 15px;
     background-color: indigo;
     color: white;
+}
+
+@media only screen and (min-width: 500px) and (max-width: 768px) {
+    .timer {
+        margin-left: 5.5cm;
+        margin-top: 2cm;
+        background-color: silver;
+        text-align: left;
+        position: fixed;
+        width: auto;
+        padding-left: 7cm;
+        height: 50%;
+    }
+    #text {
+        color:brown;
+        font-size: 1.5rem;
+        position: absolute;
+        margin-top: -1.3cm;
+        margin-left: -5cm;
+    }
+    
+    h3{
+        margin-top: 0.5cm;
+        margin-right: 0cm;
+        margin-left: -6.5cm;
+        color: black;
+        font-size: 1rem;
+        text-align: right;
+        position: fixed;
+    }
+    h4{
+        margin-top: 1cm;
+        margin-left: -6.3cm;
+        margin-right: 0cm;
+        color: black;
+        font-size: 1rem;
+        text-align: right;
+        position: fixed;
+    }
+    .buttons {
+        height: 0.8cm;
+        font-size: 1rem;
+        color: silver;
+        background-color: black;
+        margin-left: -4.2cm;
+        border-radius: 10px;
+        margin-bottom: 10px;
+    }    
+    .buttons3 {
+        height: 0.8cm;
+        font-size: 1rem;
+        color: silver;
+        background-color: black;
+        margin-left: -4.45cm;
+        border-radius: 10px;
+        margin-bottom: 10px;
+    }
+    .buttons4 {
+        height: 0.8cm;
+        font-size: 1rem;
+        color: silver;
+        background-color: black;
+        margin-left: -4.2cm;
+        border-radius: 10px;
+        margin-bottom: 10px;
+    }
+    
+    #numbers {
+        font-size: 1rem;
+        margin-left: -5cm;
+        border: 1px solid black;
+        border-radius: 15px;
+        width: 3cm;
+        text-align: center;
+        margin-top: 1cm;
+        margin-bottom: 15px;
+        background-color: indigo;
+        color: white;
+    }
 }
