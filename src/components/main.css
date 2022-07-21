@@ -157,3 +157,331 @@ h4{
         color: white;
     }
 }
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+    .timer {
+        margin-left: 7cm;
+        margin-top: 1.5cm;
+        background-color: silver;
+        border-bottom-left-radius: 50px;
+        border-top-right-radius: 50px;
+        text-align: left;
+        position: fixed;
+        width: auto;
+        padding-left: 2cm;
+        padding-right: 3cm;
+        height: 60%;
+    }
+    #text {
+        color:brown;
+        font-size: 2rem;
+        margin-top: -1.3cm;
+        margin-left: 0px;
+    }
+    
+    h3{
+        margin-top: 0.5cm;
+        margin-right: 0cm;
+        margin-left: -1.5cm;
+        color: black;
+        font-size: 1.3rem;
+        text-align: right;
+        position: fixed;
+    }
+    h4{
+        margin-top: 1.5cm;
+        margin-left: -1.5cm;
+        margin-right: 0cm;
+        color: black;
+        font-size: 1.3rem;
+        text-align: right;
+        position: fixed;
+    }
+    .buttons {
+        width: 1.5cm;
+        height: 1cm;
+        font-size: 1.2rem;
+        color: silver;
+        background-color: black;
+        margin-left: 1.8cm;
+        border-radius: 10px;
+        margin-bottom: 10px;
+    }    
+    .buttons3 {
+        height: 0.8cm;
+        font-size: 1.2rem;
+        color: silver;
+        background-color: black;
+        margin-left: 1.3cm;
+        border-radius: 10px;
+        margin-bottom: 10px;
+    }
+    .buttons4 {
+        height: 0.8cm;
+        font-size: 1.2rem;
+        color: silver;
+        background-color: black;
+        margin-left: 1.6cm;
+        border-radius: 10px;
+        margin-bottom: 10px;
+    }
+    
+    #numbers {
+        font-size: 1rem;
+        margin-left: 1cm;
+        border: 1px solid black;
+        border-radius: 15px;
+        width: 3cm;
+        text-align: center;
+        margin-top: 1cm;
+        margin-bottom: 15px;
+        background-color: indigo;
+        color: white;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+    .timer {
+        margin-left: 7cm;
+        margin-top: 50px;
+        background-color: silver;
+        border-bottom-left-radius: 50px;
+        border-top-right-radius: 50px;
+        text-align: left;
+        position: fixed;
+        width: auto;
+        padding-left: 2cm;
+        padding-right: 3cm;
+        height: 70%;
+    }
+    #text {
+        color:brown;
+        font-size: 2rem;
+        margin-top: -1.3cm;
+        margin-left: -1cm;
+    }
+    
+    h3{
+        margin-top: 0.5cm;
+        margin-right: 0cm;
+        margin-left: -1.5cm;
+        color: black;
+        font-size: 1.5rem;
+        text-align: right;
+        position: fixed;
+    }
+    h4{
+        margin-top: 1.5cm;
+        margin-left: -1.5cm;
+        margin-right: 0cm;
+        color: black;
+        font-size: 1.5rem;
+        text-align: right;
+        position: fixed;
+    }
+    .buttons {
+        width: 2cm;
+        height: 1.2cm;
+        font-size: 1.4rem;
+        color: silver;
+        background-color: black;
+        margin-left: 2cm;
+        border-radius: 10px;
+        margin-bottom: 10px;
+    }    
+    .buttons3 {
+        height: 1.2cm;
+        font-size: 1.4rem;
+        color: silver;
+        background-color: black;
+        margin-left: 1.7cm;
+        border-radius: 10px;
+        margin-bottom: 10px;
+    }
+    .buttons4 {
+        height: 1.2cm;
+        font-size: 1.4rem;
+        color: silver;
+        background-color: black;
+        margin-left: 2cm;
+        border-radius: 10px;
+        margin-bottom: 10px;
+    }
+    
+    #numbers {
+        font-size: 1.2rem;
+        margin-left: 1cm;
+        border: 1px solid black;
+        border-radius: 15px;
+        width: 4cm;
+        text-align: center;
+        margin-top: 1cm;
+        margin-bottom: 15px;
+        background-color: indigo;
+        color: white;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .timer {
+        margin-left: 10cm;
+        margin-top: 2cm;
+        background-color: silver;
+        border-bottom-left-radius: 50px;
+        border-top-right-radius: 50px;
+        text-align: left;
+        position: fixed;
+        width: auto;
+        padding-left: 2cm;
+        padding-right: 3cm;
+        height: 70%;
+    }
+    #text {
+        color:brown;
+        font-size: 2rem;
+        margin-top: -1.3cm;
+        margin-left: -1cm;
+    }
+    
+    h3{
+        margin-top: 0.5cm;
+        margin-right: 0cm;
+        margin-left: -1.5cm;
+        color: black;
+        font-size: 1.5rem;
+        text-align: right;
+        position: fixed;
+    }
+    h4{
+        margin-top: 1.5cm;
+        margin-left: -1.5cm;
+        margin-right: 0cm;
+        color: black;
+        font-size: 1.5rem;
+        text-align: right;
+        position: fixed;
+    }
+    .buttons {
+        width: 2cm;
+        height: 1.2cm;
+        font-size: 1.4rem;
+        color: silver;
+        background-color: black;
+        margin-left: 2cm;
+        border-radius: 10px;
+        margin-bottom: 10px;
+    }    
+    .buttons3 {
+        height: 1.2cm;
+        font-size: 1.4rem;
+        color: silver;
+        background-color: black;
+        margin-left: 1.7cm;
+        border-radius: 10px;
+        margin-bottom: 10px;
+    }
+    .buttons4 {
+        height: 1.2cm;
+        font-size: 1.4rem;
+        color: silver;
+        background-color: black;
+        margin-left: 2cm;
+        border-radius: 10px;
+        margin-bottom: 10px;
+    }
+    
+    #numbers {
+        font-size: 1.2rem;
+        margin-left: 1cm;
+        border: 1px solid black;
+        border-radius: 15px;
+        width: 4cm;
+        text-align: center;
+        margin-top: 1cm;
+        margin-bottom: 15px;
+        background-color: indigo;
+        color: white;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .timer {
+        margin-left: 10cm;
+        margin-top: 2cm;
+        background-color: silver;
+        border-bottom-left-radius: 50px;
+        border-top-right-radius: 50px;
+        text-align: left;
+        position: fixed;
+        width: auto;
+        padding-left: 2cm;
+        padding-right: 3cm;
+        height: 70%;
+    }
+    #text {
+        color:brown;
+        font-size: 2rem;
+        margin-top: -1.3cm;
+        margin-left: -1cm;
+    }
+    
+    h3{
+        margin-top: 0.5cm;
+        margin-right: 0cm;
+        margin-left: -1.5cm;
+        color: black;
+        font-size: 1.7rem;
+        text-align: right;
+        position: fixed;
+    }
+    h4{
+        margin-top: 1.5cm;
+        margin-left: -1.5cm;
+        margin-right: 0cm;
+        color: black;
+        font-size: 1.7rem;
+        text-align: right;
+        position: fixed;
+    }
+    .buttons {
+        width: 2cm;
+        height: 1.2cm;
+        font-size: 1.4rem;
+        color: silver;
+        background-color: black;
+        margin-left: 2cm;
+        border-radius: 10px;
+        margin-bottom: 10px;
+    }    
+    .buttons3 {
+        height: 1.2cm;
+        font-size: 1.4rem;
+        color: silver;
+        background-color: black;
+        margin-left: 1.7cm;
+        border-radius: 10px;
+        margin-bottom: 10px;
+    }
+    .buttons4 {
+        height: 1.2cm;
+        font-size: 1.4rem;
+        color: silver;
+        background-color: black;
+        margin-left: 2cm;
+        border-radius: 10px;
+        margin-bottom: 10px;
+    }
+    
+    #numbers {
+        font-size: 1.2rem;
+        margin-left: 1cm;
+        border: 1px solid black;
+        border-radius: 15px;
+        width: 4cm;
+        text-align: center;
+        margin-top: 1cm;
+        margin-bottom: 15px;
+        background-color: indigo;
+        color: white;
+    }
+}
