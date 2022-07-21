@@ -79,6 +79,83 @@ h4{
     color: white;
 }
 
+@media only screen and (min-width: 300px) and (max-width: 500px) {
+    .timer {
+        margin-left: 4cm;
+        margin-top: 0.5cm;
+        background-color: silver;
+        text-align: left;
+        position: fixed;
+        width: auto;
+        padding-left: 3cm;
+        height: 50%;
+    }
+    #text {
+        color:brown;
+        font-size: 1.5rem;
+        position: absolute;
+        margin-top: -1.3cm;
+        margin-left: -6cm;
+    }
+    
+    h3{
+        margin-top: 0.5cm;
+        margin-right: 1cm;
+        margin-left: -2cm;
+        color: black;
+        font-size: 0.8rem;
+        text-align: center;
+    }
+    h4{
+        margin-top: 0.1cm;
+        margin-right: 1cm;
+        margin-left: -2cm;
+        color: black;
+        font-size: 0.8rem;
+        text-align: center;
+    }
+    .buttons {
+        height: 0.8cm;
+        font-size: 0.8rem;
+        color: silver;
+        background-color: black;
+        margin-left: -0.5cm;
+        border-radius: 10px;
+        margin-bottom: 10px;
+    }    
+    .buttons3 {
+        height: 0.8cm;
+        font-size: 0.8rem;
+        color: silver;
+        background-color: black;
+        margin-left: -0.8cm;
+        border-radius: 10px;
+        margin-bottom: 10px;
+    }
+    .buttons4 {
+        height: 0.7cm;
+        font-size: 0.8rem;
+        color: silver;
+        background-color: black;
+        margin-left: -0.6cm;
+        border-radius: 10px;
+        margin-bottom: 10px;
+    }
+    
+    #numbers {
+        font-size: 0.6rem;
+        margin-left: -1cm;
+        border: 1px solid black;
+        border-radius: 15px;
+        width: 2cm;
+        text-align: center;
+        margin-top: 1cm;
+        margin-bottom: 15px;
+        background-color: indigo;
+        color: white;
+    }
+}
+
 @media only screen and (min-width: 500px) and (max-width: 768px) {
     .timer {
         margin-left: 5.5cm;

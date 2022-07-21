@@ -1,6 +1,8 @@
 .count {
     margin-left: 10cm;
     margin-top: 3cm;
+    border-bottom-left-radius: 50px;
+    border-top-right-radius: 50px;
     background-color: silver;
     text-align: left;
     position: fixed;
@@ -51,7 +53,7 @@
     color: white;
 }
 #count-skill{
-    margin-top: -4.3cm;
+    margin-top: -4.5cm;
     margin-right: 3cm;
     color: black;
     font-size: 20pt;
@@ -62,6 +64,75 @@
     color: black;
     font-size: 20pt;
     text-align: right;
+}
+
+@media only screen and (min-width: 300px) and (max-width: 500px) {
+    .count {
+        margin-left: 4cm;
+        margin-top: 1cm;
+        background-color: silver;
+        border-bottom-left-radius: 50px;
+        border-top-right-radius: 50px;
+        text-align: left;
+        position: fixed;
+        width: auto;
+        padding-left: 3cm;
+        height: 57%;
+    }
+    .btns {
+        height: 0.8cm;
+        width: 0.8cm;
+        font-size: 0.8rem;
+        color: silver;
+        background-color: black;
+        margin-left: -1.3cm;
+        margin-right: 1.5cm;
+        border-radius: 10px;
+    }
+    .btns3 {
+        height: 0.8cm;
+        font-size: 0.8rem;
+        color: silver;
+        background-color: black;
+        margin-left: -1cm;
+        border-radius: 10px;
+        margin-bottom: 10px;
+    }
+    #count {
+        color:brown;
+        font-size: 1.5rem;
+        position: absolute;
+        margin-top: -1cm;
+        margin-left: -3cm;
+    }
+    #count-number {
+        font-size: 0.6rem;
+        margin-left: -1.5cm;
+        border: 1px solid black;
+        border-radius: 15px;
+        width: 2cm;
+        text-align: center;
+        margin-top: 1cm;
+        margin-bottom: 15px;
+        background-color: indigo;
+        color: white;
+    }
+    #count-skill{
+        margin-top: 0.5cm;
+        margin-right: 1cm;
+        margin-left: -2.5cm;
+        color: black;
+        font-size: 0.8rem;
+        text-align: center;
+    }
+    #count-tool{
+        margin-top: 0.1cm;
+        margin-right: 1cm;
+        margin-left: -2.5cm;
+        color: black;
+        font-size: 0.8rem;
+        text-align: center;
+    }
 }
 
 @media only screen and (min-width: 500px) and (max-width: 768px) {

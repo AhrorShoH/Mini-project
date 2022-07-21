@@ -109,7 +109,84 @@ hr {
     opacity: 0.5;
 }
 
-@media only screen and (min-width: 500px) and (max-width: 768px){
+@media only screen and (min-width: 300px) and (max-width: 500px) {
+    .nav {   
+        padding-top: 5px;
+        padding-bottom: 5px;
+        text-decoration: none !important;
+        text-align: left;
+        height: auto;
+    }
+    #myphoto {
+        margin-left: 5px;
+        width: 100px;
+        border-radius: 50px;
+    }
+     
+    .navbar {
+        list-style-type: none;
+        width: 3cm;
+        text-decoration: none;
+        padding-left: 1cm;        
+    }
+    
+    #home {
+        font-weight: 200;
+        font-size: 1rem;
+        text-decoration: none;
+        color: indigo;
+    }
+
+    #counter {
+        font-weight: 100;
+        font-size: 0.8rem; 
+        text-decoration: none;   
+        color: indigo;
+        margin-left: 5px;
+    }
+
+    #calculator {
+        font-weight: 100;
+        font-size: 0.8rem;    
+        text-decoration: none;
+        color: indigo;
+        margin-left: 5px;
+        padding-left: 5px;
+    }
+
+    hr {
+        color: gainsboro;
+        cursor: default;
+        margin-left: -35px;
+        margin-right: 55px;
+    }
+    #github {
+        margin-left: 5px;
+        margin-top: 5.5cm;
+        font-size: 1rem;
+        color: indigo;
+    }
+
+    #linkedin {
+        font-size: 1rem;
+        margin-left: 10px;
+        color: indigo;
+    }
+    
+    #facebook {
+        font-size: 1rem;
+        margin-left: 10px;
+        color: indigo;
+    }
+    
+    #telegram {
+        font-size: 1rem;
+        margin-left: 10px;
+        color: indigo;
+    }
+}
+
+@media only screen and (min-width: 500px) and (max-width: 768px) {
     .nav {   
         padding-top: 10px;
         padding-bottom: 5px;
@@ -126,8 +203,7 @@ hr {
     .navbar {
         list-style-type: none;
         width: 5cm;
-        text-decoration: none;
-        
+        text-decoration: none;        
     }
     
     #home {

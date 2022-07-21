@@ -5,6 +5,7 @@
     position: fixed;
     background-color: silver;
     border-bottom-left-radius: 50px;
+    border-top-right-radius: 50px;
     width: auto;
     padding-left: 2cm;
     padding-right: 5cm;
@@ -127,6 +128,137 @@ button{
 }
 
 /* Responsive For Phone */
+
+@media only screen and (min-width: 300px) and (max-width: 500px) {
+    .wrapper {
+        margin-left: 4cm;
+        margin-top: 1cm;
+        background-color: silver;
+        border-bottom-left-radius: 50px;
+        border-top-right-radius: 50px;
+        text-align: left;
+        position: fixed;
+        width: auto;
+        padding-left: 3cm;
+        height: 60%;
+    }
+    #calc {
+        color:brown;
+        font-size: 1.5rem;
+        position: absolute;
+        margin-top: -1cm;
+        margin-left: -3cm;
+    }
+    button{
+        font-size: 0.8rem;
+        cursor: pointer;
+    }
+    #clear {
+        margin-left: -2.5cm;
+        margin-top: -0.55cm;
+        height: 1.5cm;
+    }
+    #aclear {
+        margin-left: -2.5cm;
+        margin-top: 1.4cm;
+        height: 1.5cm;
+        position: fixed;
+    }
+    .modifiers button {
+        background-color: orange;
+        width: 0.8cm;
+        height: 0.8cm;
+        font-size: 0.8rem;
+        color: black;
+        border-radius: 10px;
+        border: 2px solid black;
+    }
+    .digits {
+        margin-top: -3.5cm;
+        margin-left: -1.5cm;
+        width: 3cm;
+    }
+    
+    .digits button {
+        background-color: #efefef;
+        width: 0.7cm;
+        height: 0.7cm;
+        margin: 5px;
+        border: 2px solid black;
+        border-radius: 10px;
+        position: inherit;
+    }
+
+    #input{
+        border: black 2px solid;
+        border-radius: 25px;
+        margin-top: 0.5cm;        
+        margin-left: -2cm;        
+        margin-right: -0.3cm;        
+        width: auto;
+        height: 1cm;
+        margin-bottom: 1cm;
+    }
+
+    #operations1 {
+        background-color: rgb(2, 255, 2);
+        font-size: 1rem;
+        margin-left: 1.5cm;
+        margin-top: -1.15cm;
+        position: fixed;
+        
+    }
+    #operations2 {
+        background-color: rgb(2, 255, 2);
+        font-size: 1rem;
+        margin-left: 1.5cm;
+        margin-top: -0.75cm;
+        position: fixed;
+        
+    }
+    #operations3 {
+        background-color: rgb(2, 255, 2);
+        font-size: 1rem;
+        margin-left: 1.5cm;
+        margin-top: -0.3cm;
+        position: fixed;
+    }
+    #operations4 {
+        background-color: rgb(2, 255, 2);
+        font-size: 1rem;
+        margin-left: 1.5cm;
+        margin-top: 0.1cm;
+        position: fixed;
+    }
+    #equal {
+        margin-top: -0.48cm;
+        background-color: rgb(45, 45, 248);
+        color: white;
+        width: 0.8cm;
+        height: 0.8cm;
+        border: 2px initial black;
+        border-radius: 10px;
+        margin-left: 0.5cm;
+        position: fixed;
+    }
+    #calc-skill{
+        margin-top: 0.5cm;
+        margin-right: 0cm;
+        margin-left: -3cm;
+        color: black;
+        font-size: 0.8rem;
+        text-align: center;
+    }
+    #calc-tool{
+        margin-top: 0.1cm;
+        margin-right: 0cm;
+        margin-left: -3cm;
+        color: black;
+        font-size: 0.8rem;
+        text-align: center; 
+    }
+}
+
 @media only screen and (min-width: 500px) and (max-width: 768px) {
     .wrapper {
         margin-left: 5.5cm;
